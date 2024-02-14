@@ -1,0 +1,98 @@
+#include <iostream>
+#include <stdlib.h>
+
+int main() {
+
+std::cout << "******************************\n";
+std::cout << " DRAGON BALL Z 🎊🎊\n";
+std::cout << "******************************\n";
+
+// Our Quest Begins
+std::cout << "Goku is at his home on earth playing with his son Goahn.  Completely unaware of the danger that is approaching.  Right now he's more worried about what is on the menu for dinner.\n\n";
+
+std::cout << "Goku asks his wife Chi-Chi when the food is going to be ready.  She informs him he just ate and dinner will not be ready for another three hours.\n\n";
+
+int answer1, answer2, answer3, answer4;
+int option1 = 1;
+int option2 = 2;
+
+std::cout << "Goku must decide what he wants to do next while we waits.\n\n";
+
+std::cout << "(Press 1)  Go have a beach day with Gohan.\n\n";
+std::cout << "(Press 2)  Take Gohan to meet up with Krillin to go train.\n";
+std::cin >> answer1;
+
+if ( answer1 == option1) {
+  std::cout << "Congratulations you made Goku a lazy bum while danger is approahing (Game Over).\n ";
+
+  return 0;
+} else if (answer1 == option2) {
+  std::cout << "Goku and Gohan hop on nimbus to make a quick trip to see Krillin.\n\n";
+} else {
+  std::cout << " That was not an option you fool!!! While you are wasting time hitting random buttons that don't matter the invasion has begun.\n";
+
+  return 0;
+}
+std::cout << "Krillin welcomes the two to his home.  It's been a while since they have gotten together.\n\n";
+
+std::cout << "The trio begins to spar one another individually rotating as they test each others power levels. They they begin the two on one training.  Goku goes first fending off lightning fast attacks from Gohan and Krillan.  They watch in amazement as Goku deflects every strike as it's thrown.\n\n";
+
+std::cout << "Goku descends back to the ground after that tiresome training session.  Which one of you are next?\n\n";
+
+std::cout << "(Press 1) For Gohan\n";
+std::cout << "(Press 2) For Krillan\n";
+std::cin >> answer2;
+
+if (answer2 == option1) {
+  std::cout << "Gohan is prepared and does not flinch at stepping forward.  He is his father's son.\n";
+  std::cout << "Goku swoops in with a cross kick, but gohan deflects.  Next Krillin attempts to shoot a Kai blast maneuver at Gohan, but he feels the attack and deflects.\n\n";
+  std::cout << "Krillan looks on amazed. You are not the same Gohan.  Goku looks in proud that his son has ascended.  Goku knows the truth about Gohans abilities, but elects to keep it to himself.\n\n";
+
+} else {
+  std::cout << "Krillan begins his offensive with a Solar Flare.  He knows that in order to stand a chance he needs to take the fight to them.\n\n";
+
+  std::cout << "Krillan is able to take Gohan by surpise and instantly blinds him.  Goku not so much.... he manages to get the jump on Krillan and ends up taking his back.\n\n";
+
+  std::cout << "Goku begins to charge his kamehameha, Krillan knows he has very little time.  Pulls a destructo disk out of his back pocket and causes Goku's attack to miss ever so slighly.\n\n";
+
+}
+ std::cout << "WHAT A GREAT TRAINING SESSION....Goku says.  All of them breathing heavily congratulating the other.  Then it happens...\n\n";
+
+ std::cout << "Can you feel that?  Yea that power level is extrodinary!  It's heading right towards us and I dont think he's alone.\n\n";
+
+ std::cout << "This is a great opportunity to test Gohans ability to read enemies.  Goku asks how many enemies there are to Gohan.  You only have three chances to guess.  I'll even throw in a hint.  There are not more than 10.\n\n";
+
+ int focus;
+ int tries = 1;
+
+std::cout << "How many enemies are approaching?\n";
+std::cin >> focus;
+
+
+while (focus != 3 && tries < 3) {
+  std::cout << "Cmon Gohan Focus!\n";
+  std::cin >> focus; 
+  tries++;
+}
+
+if ( focus == 3) {
+std::cout << "That's right.  There is one for each of us.\n";
+
+}
+
+std::cout << " Are you boys ready!!  Looks like this training is about to pay off!!\n\n";
+
+std::cout << "=============================\n";
+std::cout<< "TO BE CONTINUED\n";
+std::cout << "==============================\n";
+
+
+
+
+
+
+
+
+
+
+}
